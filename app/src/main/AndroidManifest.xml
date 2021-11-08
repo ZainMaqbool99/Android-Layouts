@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidlayouts">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AndroidLayouts">
+
+        <activity
+            android:name=".AbsoluteLayoutExample"
+            android:exported="true" />
+        <activity android:name=".TableLayoutExample"
+            android:exported="true"/>
+        <activity
+            android:name=".OtherLayoutExample"
+            android:exported="true" />
+        <activity
+            android:name=".ScrollLayoutExample"
+            android:exported="true" />
+        <activity
+            android:name=".RelativeLayoutExample"
+            android:exported="true" />
+        <activity
+            android:name=".LinearLayoutMargin"
+            android:exported="true" />
+        <activity
+            android:name=".LinearLayoutPadding"
+            android:exported="true" />
+        <activity
+            android:name=".LinearLayoutGravity"
+            android:exported="true" />
+        <activity
+            android:name=".LinearLayoutWeight"
+            android:exported="true" />
+        <activity
+            android:name=".LinearLayoutMatchParent"
+            android:exported="true" />
+        <activity
+            android:name=".LinearLayoutOrientation"
+            android:exported="true" />
+        <activity
+            android:name=".Task5LinearLayout"
+            android:exported="true" />
+        <activity
+            android:name=".Task5XMLLayout"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
